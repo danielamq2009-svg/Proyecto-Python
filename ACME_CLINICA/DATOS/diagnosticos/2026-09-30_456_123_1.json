@@ -1,0 +1,26 @@
+{
+    "fecha": "2026-09-30",
+    "paciente": {
+        "identificacion": "456",
+        "nombre": "456 456"
+    },
+    "medico": {
+        "identificacion": "123",
+        "nombre": "12 123"
+    },
+    "diagnostico": "Diabetes tipo II",
+    "medicamentos": [
+        {
+            "medicamento": "Insulina",
+            "cantidad": 20,
+            "dosis": "50",
+            "dias_tratamiento": 3
+        },
+        {
+            "medicamento": "dolex",
+            "cantidad": 5,
+            "dosis": "1",
+            "dias_tratamiento": 5
+        }
+    ]
+}
