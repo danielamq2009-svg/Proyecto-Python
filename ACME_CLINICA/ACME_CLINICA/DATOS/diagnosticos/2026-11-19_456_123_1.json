@@ -1,0 +1,26 @@
+{
+    "fecha": "2026-11-19",
+    "paciente": {
+        "identificacion": "456",
+        "nombre": "Paciente Clinica"
+    },
+    "medico": {
+        "identificacion": "123",
+        "nombre": "Medico Clinica"
+    },
+    "diagnostico": "Gripa",
+    "medicamentos": [
+        {
+            "medicamento": "dolex",
+            "cantidad": 3,
+            "dosis": "1",
+            "dias_tratamiento": 3
+        },
+        {
+            "medicamento": "Advil",
+            "cantidad": 9,
+            "dosis": "3",
+            "dias_tratamiento": 3
+        }
+    ]
+}

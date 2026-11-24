@@ -1,0 +1,72 @@
+{
+    "usuarios": [
+        {
+            "identificacion": "0000",
+            "nombres": "Admin",
+            "apellidos": "Administrador",
+            "telefono": "555 000111",
+            "email": "admin@acmeclinic.com",
+            "direccion": "Cl 185 # 26 – 85",
+            "rol": "administrativo",
+            "contrasena": "admin123"
+        },
+        {
+            "identificacion": "123",
+            "nombres": "Medico",
+            "apellidos": "Clinica",
+            "telefono": "123",
+            "email": "medico@gmail.com",
+            "direccion": "123",
+            "rol": "medico",
+            "contrasena": "Z8rV5Td2"
+        }
+    ],
+    "pacientes": [
+        {
+            "identificacion": "456",
+            "nombres": "Paciente",
+            "apellidos": "Clinica",
+            "telefono": "456",
+            "email": "paciente@gmail.com",
+            "direccion": "456",
+            "genero": "Femenino",
+            "estado_civil": "Soltero/a"
+        },
+        {
+            "identificacion": "123",
+            "nombres": "123",
+            "apellidos": "123",
+            "telefono": "123",
+            "email": "123@gmail.com",
+            "direccion": "123",
+            "genero": "Masculino",
+            "estado_civil": "Soltero/a"
+        }
+    ],
+    "diagnosticos": [
+        {
+            "fecha": "2026-11-19",
+            "id_paciente": "456",
+            "id_medico": "123",
+            "sintomas": [
+                "Tos",
+                "FIebre"
+            ],
+            "diagnostico": "Gripa",
+            "medicamentos": [
+                {
+                    "medicamento": "dolex",
+                    "cantidad": 3,
+                    "dosis": "1",
+                    "dias_tratamiento": 3
+                },
+                {
+                    "medicamento": "Advil",
+                    "cantidad": 9,
+                    "dosis": "3",
+                    "dias_tratamiento": 3
+                }
+            ]
+        }
+    ]
+}
